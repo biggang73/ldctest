@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="model"
+            type="com.fish.ab.app.view.MainActivity" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/normal_text_white"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_350"
+                    android:id="@+id/top_bg"
+
+                    android:background="#def5fe"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_0"
+                        android:background="@mipmap/login_top" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_main_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="229dp"
+                    android:layout_below="@+id/top_bg"
+                    android:layout_marginTop="-70dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_20">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp_300"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_30"
+                        android:gravity="center"/>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp_300"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_7"
+                        android:gravity="center"/>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp_300"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_20"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:layout_marginRight="@dimen/dp_20">
+
+
+                        <TextView
+                            android:id="@+id/login_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="0dp"
+                            android:background="@drawable/login_btn_bg"
+                            android:gravity="center"
+                            android:text="登   录"
+                            android:textColor="@color/normal_text_white"
+                            android:textSize="@dimen/dp_16" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </FrameLayout>
+</layout>

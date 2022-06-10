@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/svnbak/!svn/ver/100094/development_library/development_center/gs_educloud_android/gs_educloud_android/edu_android_new/keystore
+END
+release.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/svnbak/!svn/ver/94925/development_library/development_center/gs_educloud_android/gs_educloud_android/edu_android_new/keystore/release.keystore
+END
+gskey.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/svnbak/!svn/ver/100094/development_library/development_center/gs_educloud_android/gs_educloud_android/edu_android_new/keystore/gskey.keystore
+END
+debug.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/svnbak/!svn/ver/94925/development_library/development_center/gs_educloud_android/gs_educloud_android/edu_android_new/keystore/debug.keystore
+END

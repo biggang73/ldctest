@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 通用文字颜色（新版） -->
+    <color name="normal_text_black">#000000</color>
+    <color name="normal_text_grey">#737373</color>
+    <color name="normal_text_blue">#539afd</color>
+    <color name="normal_text_red">#eb4200</color>
+    <color name="normal_text_white">#FFFFFF</color>
+
+    <color name="normal_text_normal">#BC641D</color>
+
+    <!--    自定义弹窗-->
+    <color name="color_EBF0F5">#EBF0F5</color>
+    <color name="black">#ff000000</color>
+    <color name="gridview_splite_line">#F2F2F2</color>
+    <color name="class_tab_unselected">#898989</color>
+
+    <color name="search_sel_background">#28C4FF</color>
+
+
+    <color name="color_2892FF">#2892FF</color>
+    <color name="color_E8E8E8">#E8E8E8</color>
+    <color name="color_F1F4F9">#F1F4F9</color>
+
+    <color name="color_2BB5FF">#2BB5FF</color>
+    <color name="color_007DFF">#007DFF</color>
+    <color name="color_0067FF">#0067FF</color>
+    <color name="color_00000000">#00000000</color>
+    <color name="color_000000">#000000</color>
+
+    <color name="color_3B6FFF">#3B6FFF</color>
+    <color name="color_55FFFFFF">#55FFFFFF</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_BFBFBF">#BFBFBF</color>
+
+    <color name="chat_text">#010101</color>
+
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="text_blue">#3CBAFF</color>
+    <color name="text_normal">#8D8D8D</color>
+    <color name="tab_bg">#FAF0E6</color>
+    <color name="view_bg">#F0EEEF</color>
+    <color name="item_btn">#E0E0E0</color>
+    <color name="tab_middle_line_color">#5c882c</color>
+    <!-- 任务处理时按钮的颜色 -->
+    <color name="detail_btn">#E0E0E0</color>
+    <color name="detacolor">#ffffff</color>
+    <color name="bar_color">#232325</color>
+    <color name="lightgray">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <!-- 标题栏的颜色 -->
+    <color name="title_bg">#3292E6</color>
+    <color name="title_bg_press">#00BFFF</color>
+    <!-- ListView item 级别字体的颜色 -->
+    <color name="color_alarmpressing">#DC143C</color>
+    <color name="color_alarmpressend">#FA8072</color>
+    <color name="color_alarmimport">#FF8C00</color>
+    <color name="color_alarmkind">#FFD700</color>
+    <color name="color_alarmhint">#00BFFF</color>
+    <color name="color_alarmbreak">#008000</color>
+    <color name="color_alarmbreaks">#1afa29</color>
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="orange">#ffa500</color>
+    <color name="blue">#0066dd</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="trans">#50000000</color>
+    <color name="red">#fe0202</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="endtime">#708090</color>
+    <!-- 登录按钮的颜色(没有登录的颜色) -->
+    <color name="unlogin_btn">#C1ECFD</color>
+    <!-- 登录按钮的颜色(登录的颜色) -->
+    <color name="login_btn">#3DB9FF</color>
+    <color name="login_btn_press">#1679A5</color>
+    <color name="text_gray">#A6A6A6</color>
+    <color name="mine_logout_nor">#FF0033</color>
+
+    <!-- 通讯录颜色设置 -->
+    <color name="border_line">#ffd7dadc</color>
+    <color name="orangered">#ff5900</color>
+    <color name="gray">#ff666666</color>
+    <color name="yello">#fff9bf16</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="readed">#ffc05500</color>
+    <color name="noread">#ff4b4b4b</color>
+    <color name="transparent01">#9000</color>
+    <color name="gray_bold">#FF606060</color>
+    <color name="movie_name">#FF371A12</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorBlue">#0066CC</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="TextColorRed">#FFE26926</color>
+    <color name="TextColorGreen">#FF00FF00</color>
+    <color name="TextColorRed1">#FFFF0000</color>
+    <color name="TextColorYellow1">#FFFFFF00</color>
+    <color name="TextColorBlue1">#FF080ad3</color>
+    <color name="TextColorGreen1">#FF336619</color>
+    <color name="zzblue">#3f5c84</color>
+    <color name="zzyellow">#c06622</color>
+    <color name="zzblack">#000</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="info_panel_bg">#ffeeeeee</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="background_color">#f4f4f4</color>
+    <color name="orderconfire_item_bg">#F7F7F7</color>
+    <color name="text_black">#000000</color>
+    <color name="app_stroke_line">#E0E0E0</color>
+    <color name="app_background">#E6E6E6</color>
+    <color name="orderfood_left_text">#7A7A7A</color>
+    <color name="fragment_tab_text">#F02D30</color>
+    <color name="nearby_eachprice">#7A7A7A</color>
+    <color name="sex_info_bg">#EDEDED</color>
+    <color name="black_gray">#686864</color>
+    <color name="gray_thin">#e5e5e5</color>
+
+    <!-- 以下为  二维码所要的颜色 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ff86f60e</color>
+    <color name="viewfinder_laser_trs">#7f86f60e</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 回退按钮颜色 -->
+    <color name="btn_rollback">#2392EA</color>
+    <!-- 系统状态栏[签到]颜色 -->
+    <color name="sys_title_color">#2A93FE</color>
+    <!-- 签到颜色 -->
+    <color name="sign_color">#2A88FE</color>
+    <!-- 系统状态栏[工作汇报]颜色 -->
+    <color name="workreport_title_color">#1CCE6F</color>
+    <color name="text_normal_task">#8D8D8D</color>
+    <color name="text_helptask"> #F0E68C</color>
+    <color name="on_text">#FFFFFF</color>
+    <!-- 开启时文字颜色 -->
+    <color name="off_text">#5B5B5B</color>
+    <!-- 关闭时文字颜色 -->
+    <!-- 窗口背景颜色 -->
+
+    <color name="pictruebackG"> #778899</color>
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <color name="bt_on">#ADC3BBD8</color>
+    <color name="bt_off">#ADDDDDDD</color>
+    <color name="stauszi">#800080</color>
+    <color name="stauslan">#0000FF</color>
+    <color name="stausc">#FFA500</color>
+    <color name="staush">#FF0000</color>
+    <color name="stauslv">#40E0D0</color>
+    <color name="staushi">#000000</color>
+    <color name="head_bg">#663300</color>
+    <color name="touming">#00000000</color>
+    <color name="tab_title_normal_color">#262726</color>
+    <color name="tab_title_pressed_color">#16982b</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <!-- 黄色 -->
+    <color name="text_yellow">#FFD700</color>
+    <color name="green">#32CD32</color>
+    <!-- 淡灰色 -->
+    <color name="grayish">#DCDCDC</color>
+    <!-- 淡绿色 -->
+    <color name="LightGreen">#32CD32</color>
+    <color name="normal_bg_color">#f0f0f0</color>
+    <color name="yellowGreen">#42bf06</color>
+    <color name="normal_orange">#ff6633</color>
+    <color name="yellos">#ea881f</color>
+    <color name="pull_down_bg">#F7F7F7</color>
+    <color name="lightwhite">#fff</color>
+
+    <!--LG-->
+    <color name="pop_bg">#4c000000</color>
+    <color name="table_list">#E4EBF5</color>
+    <color name="text_color_dark_gey">#8e8e8e</color>
+    <color name="teach_blue">#4dd0e2</color>
+    <color name="teach_red">#ff9aa0</color>
+    <color name="teach_green">#97d055</color>
+    <color name="teach_purple">#ce93d8</color>
+    <color name="teach_yellow">#ffc108</color>
+    <color name="button_blue">#5ed7ec</color>
+    <color name="button_gey">#e0e0e0</color>
+    <color name="table_gey">#cecece</color>
+    <color name="text_color_light_blue">#5ed7ec</color>
+    <color name="text_color_black_button">#cacaca</color>
+    <color name="text_color_red">#f96868</color>
+    <color name="text_color_gold">#ffa800</color>
+    <color name="item_color_location_caps">#E6E6E6</color>
+    <color name="text_color_down">#e5e5e5</color>
+    <color name="text_color_blue">#0087e0</color>
+    <color name="text_color_gey">#676767</color>
+    <color name="text_color_gey_white">#c6c6c6</color>
+    <color name="text_color_black">#1F1F1F</color>
+    <color name="text_color_yellow">#ffa800</color>
+    <color name="shape_circle_stroke">#E0E0E0</color>
+    <color name="main_title_blue">#0087E0</color>
+    <color name="bg">#F5F5F5</color>
+    <color name="home_recommend">#1F1F1F</color>
+    <color name="base_text_press_color">#F5F5F5</color>
+    <color name="oval_no">#ededed</color>
+    <color name="oval_yes">#cdcdcd</color>
+
+    <!--LuYang-->
+    <color name="group_item_bg">#F3F3F3</color>
+    <color name="group_item_pressed_bg">#E5E5E5</color>
+    <color name="child_item_bg">#E5E5E5</color>
+    <color name="child_item_diveder">#D6D6D5</color>
+    <color name="list_item_text_pressed_bg">#FF822E</color>
+    <color name="tab_text_color">#787878</color>
+    <color name="tab_text_pressed_color">#CD0000</color>
+    <color name="main_color">#0087e0</color>
+    <color name="text_black1">#2f2f2f</color>
+    <color name="line">#e0e0e0</color>
+    <color name="phone_code">#aaaaaa</color>
+    <!--LuYang-->
+    <color name="new_bottom_halving_bg">#bbbbbb</color>
+    <color name="new_bottom_bar_bg">#f8f8f8</color>
+    <color name="new_title_bg">#2d83d3</color>
+    <color name="tab_home_name_textColor_normal">#aaaaaa</color>
+    <color name="tab_home_name_textColor_select">#228fff</color>
+
+
+    <color name="unfocused">#D3D3D3</color>
+    <color name="pressed">#FFFFFF</color>
+
+</resources>

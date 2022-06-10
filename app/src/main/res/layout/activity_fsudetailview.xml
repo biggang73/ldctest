@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+        <variable
+            name="model"
+            type="com.fish.ab.app.view.FsuDetailViewActivity" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#3CBAFF" >
+
+            <RelativeLayout
+                android:id="@+id/r_item"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="#3CBAFF" >
+
+                <ImageView
+                    android:id="@+id/ala_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/nav_btn_back_light_press" />
+
+                <TextView
+                    android:id="@+id/text_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/ala_back"
+                    android:text="返回"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/devicedateid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Fsu列表"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/activity_title_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="确定"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r_item"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <AutoCompleteTextView
+                android:id="@+id/search_edit"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="4"
+                android:background="@drawable/button_1"
+                android:drawableLeft="@drawable/icon_33"
+                android:hint="搜索"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/loadDataBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:onClick="@{model::getFsuData}"
+                android:text="测试加载Fsu数据" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--    <android.support.v4.widget.SwipeRefreshLayout-->
+        <!--        android:id="@+id/myswipe_container"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="635dp">-->
+
+        <!--        <ListView-->
+        <!--            android:id="@+id/sulist"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:cacheColorHint="#00000000"-->
+        <!--            android:divider="#dddbdb"-->
+        <!--            android:dividerHeight="1.0px"-->
+        <!--            android:drawSelectorOnTop="false"-->
+        <!--            android:listSelector="@android:color/transparent"></ListView>-->
+        <!--    </android.support.v4.widget.SwipeRefreshLayout>-->
+
+
+    </LinearLayout>
+
+</layout>
